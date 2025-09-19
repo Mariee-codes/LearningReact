@@ -14,5 +14,6 @@
                 <Li>super popular js library</Li>
                 <Li>will help me be even more employable</Li>
                 <Li>React has a pretty cool logo</Li>
+                <li>i love react</li>
             </ul>
         )
