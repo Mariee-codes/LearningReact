@@ -19,13 +19,30 @@
         // )
 
 
-        import  { createElement } from "react";
-        import { createRoot } from "react-dom/client";
+//         import  { createElement } from "react";
+//         import { createRoot } from "react-dom/client";
 
-const root = createRoot(document.getElementById("root"))
-const reactElement = createElement("h1", null, "hello from createElement!")
+// const root = createRoot(document.getElementById("root"))
+// const reactElement = createElement("h1", null, "hello from createElement!")
 
-console.log(reactElement)
+// console.log(reactElement)
 
-root.render(reactElement)
-<h1><span>children love react</span></h1>
+// root.render(reactElement)
+// <h1><span>children love react</span></h1>
+
+/*
+ CREATE A CUSTOM REACT COMPONENET
+create your very first custom react component
+call it "main content", and have it return a simple h1 element that says "react is great"
+afterward, render it on the line below MyAwesomeNavbar
+*/
+function MainContent() {
+    return <h1>React is great!</h1>
+}
+
+root.render (
+<div>
+    <MyAwesomeNavbar />
+    <MainContent />
+</div>
+)
