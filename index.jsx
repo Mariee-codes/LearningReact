@@ -23,6 +23,10 @@
         import { createElement } from "react-dom/client"
 
         const root = createRoot(document.getElementById("root"))
+        const reactElement = createElement("hi", null, "hello from createElement!")
+
+        console.log(reactElement)
         root.render(
-            createElement("h1", null, "Hello from createElement")
+            reactElement
+            
         )
