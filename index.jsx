@@ -67,6 +67,17 @@ hints: need to import the method to create a new root from the "react-dom/client
 "
 use that root to render some jsx .for now, just render a h1 element that says anythung you want.
 */
+import { createElement } from "react"
 import { createRoot } from "react-dom/client"
 const root = createRoot(document.getElementById("root"))
-root.render(<h1>This is React</h1>)
+//root.render(<h1>This is React</h1>)
+root.render(
+    <div>
+    <img src =  "react logo.png" />
+    <h1>This is another element</h1>
+    </div>
+)
+
+createElement("div", null, createElement(
+    
+))
