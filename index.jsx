@@ -67,17 +67,34 @@ hints: need to import the method to create a new root from the "react-dom/client
 "
 use that root to render some jsx .for now, just render a h1 element that says anythung you want.
 */
-import { createElement } from "react"
-import { createRoot } from "react-dom/client"
-const root = createRoot(document.getElementById("root"))
-//root.render(<h1>This is React</h1>)
-root.render(
-    <div>
-    <img src =  "react logo.png" />
-    <h1>This is another element</h1>
-    </div>
-)
+// import { createElement } from "react"
+// import { createRoot } from "react-dom/client"
+// const root = createRoot(document.getElementById("root"))
+// //root.render(<h1>This is React</h1>)
+// root.render(
+//     <div>
+//     <img src =  "react logo.png" />
+//     <h1>This is another element</h1>
+//     </div>
+// )
 
-createElement("div", null, createElement(
+// createElement("div", null, createElement(
     
-))
+// ))
+
+/*
+starting from scratch, build and render the html for our section projects.check the google slide for what youre trying to build */
+import { createRoot } from "react-dome/client"
+const root = createRoot(document.getElementById("root"))
+root.render(
+    <main>
+        <img src = "react logo.png" width="40px"/>
+        <h1>fun facts about React!</h1>
+        <ul>
+            <li>was first released in 2013</li>
+            <li>was originally created by jordan walker</li>
+            <li>has well over 200k stars on github</li>
+            <li>its maintained by meta</li>
+        </ul>
+    </main>
+)
