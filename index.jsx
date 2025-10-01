@@ -87,20 +87,11 @@ starting from scratch, build and render the html for our section projects.check 
 import { createRoot } from "react-dome/client"
 const root = createRoot(document.getElementById("root"))
 root.render(
-    <main>
-        <img src = "react logo.png" width="40px"/>
-        <h1>fun facts about React!</h1>
-        <ul>
-            <li>was first released in 2013</li>
-            <li>was originally created by jordan walker</li>
-            <li>has well over 200k stars on github</li>
-            <li>its maintained by meta</li>
-        </ul>
-    </main>
+   < temporaryName />
 )
 
 
-function () {
+function TemporaryName() {
     return (
     <main>
         <img src = "react logo.png" width="40px" alt="react logo" />
