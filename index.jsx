@@ -98,3 +98,19 @@ root.render(
         </ul>
     </main>
 )
+
+
+function () {
+    return (
+    <main>
+        <img src = "react logo.png" width="40px" alt="react logo" />
+        <h1>fun facts about React</h1>
+        <ul>
+            <li>was first released in 2013</li>
+            <li>was originally created by jordan walker</li>
+            <li>has well over 200k stars on github</li>
+            <li>its maintained by meta</li>
+        </ul>
+    </main>
+    )
+}
