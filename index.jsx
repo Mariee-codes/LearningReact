@@ -84,20 +84,31 @@ use that root to render some jsx .for now, just render a h1 element that says an
 
 /*
 starting from scratch, build and render the html for our section projects.check the google slide for what youre trying to build */
-import { createRoot } from "react-dome/client"
-const root = createRoot(document.getElementById("root"))
+// import { createRoot } from "react-dome/client"
+// const root = createRoot(document.getElementById("root"))
 
-function Page() {
-    return (
+ function Page() {
+   return (
+    <div>
+        <header>
+            <img src = "react-logo-png"width="40px"alt="React logo" />
+        </header>
+        <main>
+            <h1>Reason i am excited to learn React</h1>
         <ol>
             <li>React is a popular library, so i will be able to fit in with all the coolest devs out there</li>
-            <li>I am more likely to get a job as a frony end developer if i know react</li>
-        </ol>
-    )
-}
-root.render(
-  // < temporaryName />
-  <page></page>
+             <li>I am more likely to get a job as a frony end developer if i know react</li>
+         </ol>
+         </main>
+         <footer>
+            <small>"@2024  Marie development.  All rights reserved"</small>
+         </footer>
+         </div>
+     )
+ }
+ root.render(
+   // < temporaryName />
+   <page></page>
 )
 
 
