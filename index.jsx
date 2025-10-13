@@ -97,7 +97,7 @@ function Page() {
 }
 root.render(
   // < temporaryName />
-  <Page />
+  <page></page>
 )
 
 
