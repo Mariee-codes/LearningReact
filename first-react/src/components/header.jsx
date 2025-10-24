@@ -15,4 +15,8 @@ function Header (){
     )
 
 }
-export default Header;
+export default function Header () {
+    return (
+        <h1>Im the header component</h1>
+    )
+}
