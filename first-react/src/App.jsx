@@ -3,6 +3,7 @@ import { useState } from 'react'
  import viteLogo from '/vite.svg'
  import './App.css'
  import Header from './components/header'
+ import Entry from './components/Entry'
 
 // function App() {
  
@@ -31,9 +32,13 @@ import { useState } from 'react'
 
 export default function App() {
   return (
+    
+    
+    
     <Header>
-      <img src ="globe image.png"alt="globe icon" />
-      <h1>my travel journal</h1>
-    </Header>
+      <img src ="../globe image.png"alt="globe icon" />
+       <h1>my travel journal</h1>
+   </Header> 
+    
   )
 }
