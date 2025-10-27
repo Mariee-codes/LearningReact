@@ -31,6 +31,9 @@ import { useState } from 'react'
 
 export default function App() {
   return (
-    <h1>im the app component</h1>
+    <Header>
+      <img src ="globe image.png"alt="globe icon" />
+      <h1>my travel journal</h1>
+    </Header>
   )
 }
