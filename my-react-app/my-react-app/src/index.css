@@ -89,22 +89,48 @@ header > img {
 header > h1 {
   font-size: 0.9rem;
   font-weight: 500;
-  font-family: Inter;
+  
 }
 
 article.journal-entry{
 display: flex;
 }
 
-.main-image-container{
-  width:125px;
-  height: 168px;
-  overflow:hidden;
-  border-radius: 5px;
+article.journal-entry .marker{
+  width:10px;
+  margin-right: 4px;
+  
 }
 
-.main-image{
+article.journal-entry .main-image-container{
+  width:155px;
+  height: 190px;
+  overflow:hidden;
+  border-radius: 5px;
+  flex-shrink:0;
+  margin-right: 19px;
+  margin-left: 19px;
+  margin-top: 19px;
+}
+
+article.journal-entry .main-image{
   width: 100%;
   height:100%;
   object-fit: cover;
+}
+
+.container-two{
+  margin-top: 20px;
+}
+
+.fuji-entry {
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.p-entry{
+  font-weight: bold;
+  margin-top: 4px;
 }
