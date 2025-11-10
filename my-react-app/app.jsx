@@ -20,11 +20,21 @@ import Joke from "./Joke"
 export default function App() {
     return(
         <main>
-            <joke />
-            <joke />
-            <joke />
-            <joke />
-            <joke />
+            <joke setup="What did the horse say after it tripped?
+                         Help! I’ve fallen and I can’t giddy-up!
+                           "/>
+            <joke setup=" Why can’t you hear a pterodactyl going to the bathroom?
+
+                         Because the “P” is silent."/>
+            <joke setup="What do you call a well-balanced horse?
+
+                           Stable." />
+            <joke setup="Where do polar bears keep their money?
+
+                          In a snowbank."/>
+            <joke  setup="How do you make an egg roll?
+
+                            You push it!"/>
         </main>
     )
 }

@@ -1,5 +1,9 @@
-export default function Joke() {
+export default function Joke(props) {
     return (
-        <h1>Inside the Joke component</h1>
+        <>
+        <p>{}</p>
+        <p></p>
+        <hr />
+        </>
     )
 }
