@@ -15,8 +15,16 @@
  * punchline.
  */
 
+
+import Joke from "./Joke"
 export default function App() {
     return(
-        <></>
+        <main>
+            <joke />
+            <joke />
+            <joke />
+            <joke />
+            <joke />
+        </main>
     )
 }
