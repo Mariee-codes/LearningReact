@@ -22,19 +22,26 @@ export default function App() {
         <main>
             <joke setup="What did the horse say after it tripped?
                          Help! I’ve fallen and I can’t giddy-up!
+                         upvotes={10}
+                         isPun={true}
                            "/>
             <joke setup=" Why can’t you hear a pterodactyl going to the bathroom?
 
-                         Because the “P” is silent."/>
+                         Because the “P” is silent."
+                         isPun={true}/>
+                         
             <joke setup="What do you call a well-balanced horse?
 
-                           Stable." />
+                           Stable."
+                           isPun={true} />
             <joke setup="Where do polar bears keep their money?
 
-                          In a snowbank."/>
+                          In a snowbank."
+                          isPun={true}/>
             <joke  setup="How do you make an egg roll?
 
-                            You push it!"/>
+                            You push it!"
+                            isPun={false}/>
         </main>
     )
 }
