@@ -17,6 +17,8 @@
 
 
 import Joke from "./Joke"
+import image from "./images/mr-whiskerson.png"
+
 export default function App() {
     return(
         <main>
