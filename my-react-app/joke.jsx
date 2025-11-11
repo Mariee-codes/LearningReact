@@ -1,8 +1,10 @@
 export default function Joke(props) {
     return (
         <>
-        <p>{props.setup}setup: {props.setup}</p>
-        <p>{props.punchline}punchline: {props.punchline}</p>
+        <p style= {{display: props.setup? "block" : "none"}} className = "setup">Setup:
+            {props.setup}
+        </p>
+        <p className="punchline">punchline: {props.punchline}</p>
         <hr />
         </>
     )
