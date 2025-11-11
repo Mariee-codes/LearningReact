@@ -1,11 +1,16 @@
 export default function Entry(props){
+    console.log(props)
     return(
         <article className="journal-entry">
             <div className="main-image-container">
-           <img  className= "main-image" 
-           src ="../mt fuji.jpeg" alt="mt fuji" ></img>
-           </div>
+           <img 
+          className= "main-image" 
+          src ={props.img.src} 
+          alt={props.img.alt} >
 
+          </img>
+           </div>
+    
     <div className="container-two">
         <img  className="marker"src ="../marker png.png" alt="marker icon"></img>
          <span>JAPAN</span>
