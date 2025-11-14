@@ -23,3 +23,18 @@ const capitalized = names.map((name) => {
 })
 
 console.log(capitalized)
+
+/*
+challenge 3:
+given an array of strings , return an array of strings that wraps each
+of the original strings in an html-like <p></p> tag.
+eg. given: ["bulbasaur"],["charmander"], ["squirtle"]
+return: ["<p>bulbasaur</p>", "<p>charmander</p>"],["<p>squirtel</p>"]
+*/
+const pokemon = ["bulbasaur","charmander","squirtel"]
+// -->      ["<p>bulbasaur</p>", "<p>charmander</p>"],["<p>squirtel</p>"]
+const paragraphs = pokemon.map((mon) => {
+    return `<p>${mon}</p>`
+})
+
+console.log(paragraphs)
