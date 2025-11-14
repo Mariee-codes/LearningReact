@@ -18,3 +18,8 @@ given an array of strings ,return an array where the first letter of each string
 
 const name =["alice","bob","charlie","danielle"]
 // -->      []
+const capitalized = names.map((name) => {
+    return name[0].toUpperCase() + name.slice(1)
+})
+
+console.log(capitalized)
