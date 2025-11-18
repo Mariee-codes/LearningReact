@@ -6,9 +6,13 @@ export default function App() {
         <h2>Leornado</h2>]
     return(
         <main>
-            {ninjaTurtles}
+            {ninjaTurtles }
         </main>
     )
 }
+
+
+//mapping components
+boys
 
 
