@@ -22,5 +22,5 @@ const jokeElements = jokesData.map((joke) =>{
 
 //mapping components
 
-
+for <let i=0; i<100;i++>
 
