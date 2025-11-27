@@ -2,7 +2,8 @@ export default [
     {
         id: 1,
         img: {
-            src
+            src:"mt fuji.jpeg"
+            alt
         }
     }
 ]
