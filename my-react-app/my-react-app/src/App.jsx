@@ -9,7 +9,8 @@ import data from "./data"
     return (
       <Entry
       img={{
-        src: entry.img.src
+        src: entry.img.src,
+        alt: entry.img.alt
       }}
 
       />
