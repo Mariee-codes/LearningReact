@@ -15,8 +15,11 @@ export default [
     {
         id: 2,
         img: {
-            src:""
-        }
+            src:"Sidney Opera House.webp",
+            alt:"Sidney Opera House"
+        },
+
+        title:""
     }
 
 ]
