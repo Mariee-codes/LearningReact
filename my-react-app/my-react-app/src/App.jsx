@@ -15,12 +15,8 @@ import data from "./data.jsx"
 
     return (
       <Entry
-      img={entry.img}
-      title={entry.title}
-      country= {entry.country}
-      googleMapsLink= {entry.googleMapsLink}
-      dates ={ entry.dates}
-      text= {entry.text}
+            key={entry.id}
+            entry={entry}
 
        />
     )

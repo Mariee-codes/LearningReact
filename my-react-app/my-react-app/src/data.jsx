@@ -27,7 +27,7 @@ export default [
         id: 3,
         img: {
             src:"Geirangerfjord.jpg",
-            alt:"Geirangerfjord in Norway"
+            alt:"Geirangerfjord"
         },
         title:"Geirangerfjord",
         country:"NORWAY",
