@@ -29,7 +29,7 @@ export default [
             src:"Geirangerfjord.jpg",
             alt:"Geirangerfjord"
         },
-        title:"Geirangerfjord",
+        title:"Geirangerfjord In Norway",
         country:"NORWAY",
         googleMapsLink:"https://www.google.com/imgres?q=geiranger%20fjord%20google%20maps%20link&imgurl=https%3A%2F%2Fwww.geirangerfjord.no%2Fupload%2Fimages%2FMaps%2FPanorama_bus_tour_-_birdsview_2015.jpg&imgrefurl=http%3A%2F%2Fwww.geirangerfjord.no%2Fmap&docid=Y38bsWfhTupQxM&tbnid=zHS1fAurJqxVDM&vet=12ahUKEwi9k7C-p5-RAxVO0wIHHRTQGMAQM3oECBwQAA..i&w=1000&h=750&hcb=2&ved=2ahUKEwi9k7C-p5-RAxVO0wIHHRTQGMAQM3oECBwQAA",
         dates:"01 Oct, 2021 - 18 Nov, 2021",
