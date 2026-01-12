@@ -16,8 +16,7 @@ import data from "./data.jsx"
     return (
       <Entry
             key={entry.id}
-            entry={entry}
-
+            {...entry}  // ← Add the spread operator
        />
     )
   })
